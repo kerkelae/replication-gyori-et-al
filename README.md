@@ -13,3 +13,10 @@ All the code in this repository has been written using [Anaconda](https://www.an
 ```
 conda env create -f environment.yml
 ```
+
+## Download raw data
+
+We will use a 2-shell high-angular resolution diffusion imaging (HARDI) scan that can be downloaded by executing
+```
+python fetch_data.py
+```
