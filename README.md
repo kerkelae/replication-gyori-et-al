@@ -8,15 +8,40 @@ Gyori, Noemi G., et al. _"Training data distribution significantly impacts the e
 
 ## Installation
 
-All the code in this repository has been written using [Anaconda](https://www.anaconda.com/download). The development environment with all the required packages is defined in `environment.yml`, which can be installed by executing
+All the code in this repository has been run using [Anaconda](https://www.anaconda.com/download). The development environment with all the required packages is defined in `environment.yml`, which can be installed by executing
 
 ```
 conda env create -f environment.yml
 ```
 
-## Download raw data
+Then, you can activate the environment with
 
-We will use a 2-shell high-angular resolution diffusion imaging (HARDI) scan that can be downloaded by executing
 ```
-python fetch_data.py
+conda activate replication_env
+```
+
+## Download data
+
+We will use a 2-shell high-angular resolution diffusion imaging (HARDI) data. You can download the preprocessed data or the raw data and run the preprocessing script yourself (this can take some time).
+
+### Preprocessed data
+
+Preprocessed data can be downloaded by executing
+
+```
+python fetch_preprocessed_data.py
+```
+
+### Raw data
+
+Raw data can be downloaded by executing
+
+```
+python fetch_raw_data.py
+```
+
+Raw diffusion MRI data needs to be pre-processed before analysis. Running the preprocessing script requires [fsl](https://fsl.fmrib.ox.ac.uk/) to be installed. I ran the preprocessing using fsl version 6.0.7.3. You can run the preprocessing script by executing
+
+```
+bash preprocessing.sh
 ```
