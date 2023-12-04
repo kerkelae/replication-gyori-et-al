@@ -45,3 +45,11 @@ Raw diffusion MRI data needs to be pre-processed before analysis. Running the pr
 ```
 bash preprocessing.sh
 ```
+
+## Conventional model fit
+
+In order to run the conventional model fit, you need to install [smt](https://github.com/ekaden/smt) and run
+
+```
+bash fit_smt.sh
+```
