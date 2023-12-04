@@ -1,5 +1,6 @@
 name: replication_env
 channels:
+  - mrtrix3
   - pytorch
   - nvidia
   - conda-forge
@@ -45,6 +46,7 @@ dependencies:
   - executing=0.8.3=pyhd3eb1b0_0
   - expat=2.5.0=h6a678d5_0
   - ffmpeg=4.3=hf484d3e_0
+  - fftw=3.3.9=h27cfd23_1
   - filelock=3.13.1=py311h06a4308_0
   - fontconfig=2.14.1=h4c34cd2_2
   - fonttools=4.25.0=pyhd3eb1b0_0
@@ -100,6 +102,7 @@ dependencies:
   - libcusparse=11.7.5.86=0
   - libdeflate=1.17=h5eee18b_1
   - libedit=3.1.20221030=h5eee18b_0
+  - libevent=2.1.12=hdbd6064_1
   - libffi=3.4.4=h6a678d5_0
   - libgcc-ng=13.2.0=h807b86a_3
   - libgfortran-ng=11.2.0=h00389a5_1
@@ -138,6 +141,7 @@ dependencies:
   - mpc=1.1.0=h10f8cd9_1
   - mpfr=4.0.2=hb69a4c5_1
   - mpmath=1.3.0=py311h06a4308_0
+  - mrtrix3=3.0.4=h2bc3f7f_0
   - munkres=1.1.4=py_0
   - mysql=5.7.24=h721c034_2
   - nbclient=0.8.0=py311h06a4308_0
@@ -150,6 +154,8 @@ dependencies:
   - nibabel=5.1.0=py311h38be061_3
   - notebook=7.0.6=py311h06a4308_0
   - notebook-shim=0.2.3=py311h06a4308_0
+  - nspr=4.35=h6a678d5_0
+  - nss=3.89.1=h6a678d5_0
   - numexpr=2.8.7=py311h65dcdc2_0
   - numpy=1.26.2=py311h08b1b3b_0
   - numpy-base=1.26.2=py311hf175353_0
@@ -193,7 +199,9 @@ dependencies:
   - pytz=2023.3.post1=py311h06a4308_0
   - pyyaml=6.0.1=py311h5eee18b_0
   - pyzmq=25.1.0=py311h6a678d5_0
+  - qt=5.15.9=h06a4308_0
   - qt-main=5.15.2=h53bd1ea_10
+  - qt-webengine=5.15.9=h9ab4d14_7
   - qtconsole=5.5.0=py311h06a4308_0
   - qtpy=2.4.1=py311h06a4308_0
   - readline=8.2=h5eee18b_0
