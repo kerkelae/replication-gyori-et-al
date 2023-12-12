@@ -53,3 +53,7 @@ In order to run the conventional model fit, you need to install [smt](https://gi
 ```
 bash fit_smt.sh
 ```
+
+## Training and comparison
+
+Once the data has been prepared and the parameters estimated using the conventional model fit, the network can be trained using the notebooks `train_uniform.ipynb` and `train_healthy_brain.ipynb`. The results can be compared using the notebook `comparison.ipynb`.
