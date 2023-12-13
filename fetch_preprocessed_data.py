@@ -10,6 +10,7 @@ if __name__ == "__main__":
         "dwi.bval",
         "dwi.bvec",
         "dwi.nii.gz",
+        "brain_mask.nii.gz",
     ]:
         print(f"Downloading {fname}", end="\r")
         response = requests.get(
