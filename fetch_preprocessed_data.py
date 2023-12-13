@@ -6,7 +6,7 @@ if __name__ == "__main__":
     if not os.path.exists("2-shell_HARDI_preprocessed"):
         os.mkdir("2-shell_HARDI_preprocessed")
 
-    for fname in [pytho
+    for fname in [
         "dwi.bval",
         "dwi.bvec",
         "dwi.nii.gz",
